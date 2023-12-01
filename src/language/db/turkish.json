@@ -1,0 +1,15 @@
+{
+  "appHeader": "Electron-React-FluentUI Standart Uygulaması",
+  "homePage": "Ana Sayfa",
+  "settingsPage": "Ayarlar",
+  "homeTitle" : "Ana Sayfa",
+  "settingsTitle" : "Ayarlar",
+  "language" : "Dil",
+  "en" : "İngilizce",
+  "tr" : "Türkçe",
+  "theme" : "Tema",
+  "dark" : "Koyu",
+  "light" : "Açık",
+  "saveSettingsButton" : "Ayarları Kaydet",
+  "internet" : "İnternet"
+}

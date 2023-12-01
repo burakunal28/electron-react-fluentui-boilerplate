@@ -1,0 +1,16 @@
+:root {
+  --background-color: #FAFAFA;
+}
+
+body.dark {
+  --background-color: #1F1F1F;
+}
+
+body {
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100dvh;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}

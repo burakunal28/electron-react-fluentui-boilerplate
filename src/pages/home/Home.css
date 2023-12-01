@@ -1,0 +1,21 @@
+.home-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1dvh;
+  height: 4vh;
+}
+
+.home-button-container {
+  align-items: start;
+  column-gap: 0.5dvw;
+  display: flex;
+}
+
+.home-title {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.3dvw;
+}

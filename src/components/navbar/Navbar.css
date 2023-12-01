@@ -1,0 +1,21 @@
+:root {
+  --navbar-background-color: #FAFAFA;
+}
+
+body.dark {
+  --navbar-background-color: #1F1F1F;
+}
+
+.navbar {
+  width: 100dvw;
+  height: 5dvh;
+  padding-left: 15px;
+  padding-top: 5px;
+  background-color: var(--navbar-background-color);
+  box-sizing: border-box;
+  display: flex;
+}
+
+.connection{
+  margin-left: 10px;
+}

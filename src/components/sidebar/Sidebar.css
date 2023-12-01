@@ -1,0 +1,34 @@
+:root {
+  --sidebar-background-color: #FAFAFA;
+  --sidebar-active-tab-background-color: #F0F0F0;
+}
+
+body.dark {
+  --sidebar-background-color: #1F1F1F;
+  --sidebar-active-tab-background-color: #292929;
+}
+
+.sidebar {
+  width: 15dvw;
+  height: 95dvh;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--sidebar-background-color);
+  padding-left: 1dvw;
+  padding-right: 1dvw;
+  padding-top: 1dvh;
+  padding-bottom: 6dvh;
+  box-sizing: border-box;
+}
+
+.sidebar-active-tab {
+  background-color: var(--sidebar-active-tab-background-color) !important;
+  border-radius: 4px;
+}
+
+.sidebar-badge{
+  width: 100% !important;
+  border-radius: 6px !important;
+}

@@ -1,0 +1,15 @@
+{
+    "appHeader": "Electron-React-FluentUI Boilerplate",
+    "homePage": "Home",
+    "settingsPage": "Settings",
+    "homeTitle" : "Homepage",
+    "settingsTitle" : "Settings",
+    "language" : "Language",
+    "en" : "English",
+    "tr" : "Turkish",
+    "theme" : "Theme",
+    "dark" : "Dark",
+    "light" : "Light",
+    "saveSettingsButton" : "Save Settings",
+    "internet" : "Internet"
+}

@@ -1,0 +1,35 @@
+.settings-option-container {
+    padding-bottom: 10px;
+}
+
+.settings-option-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.settings-save-button {
+    width: 100%;
+}
+
+.settings-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1dvh;
+    box-sizing: border-box;
+    height: 4vh;
+}
+
+.settings-button-container {
+  align-items: start;
+  column-gap: 0.5dvw;
+  display: flex;
+}
+
+.settings-title {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.3dvw;
+}
