@@ -39,4 +39,4 @@ The project structure is as follows:
 
 ## Developer 👨‍💻
 
-This project was created by [Burak Ünal](https://linktr.ee/burakunal28).
+This project was created by [Burak Ünal](https://linktr.ee/burakunal28)
