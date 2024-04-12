@@ -4,7 +4,7 @@ This project is a boilerplate for building Electron applications with React and 
 
 ## Preview
 
-![Preview](preview.png)
+![Preview](screenshot.png)
 
 ## Getting Started 🛠️
 
