@@ -1,0 +1,78 @@
+:root {
+    --help-title-badge-color: #242424;
+    --help-object-text-color: #424242;
+}
+
+body.dark {
+    --help-title-badge-color: #ffffff;
+    --help-object-text-color: #d6d6d6;
+}
+
+.help-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2dvh;
+    justify-content: space-between;
+}
+
+.help-row-container {
+    display: flex;
+    gap: 2dvw;
+    width: 100%;
+}
+
+.help-column-container {
+    gap: 2dvw;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.help-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1dvh;
+    height: 4vh;
+}
+
+.help-button-container {
+    align-items: start;
+    column-gap: 0.5dvw;
+    display: flex;
+}
+
+.help-title {
+    margin: 0;
+    height: 3dvh;
+}
+
+.help-title-badge{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    height: 3dvh !important;
+    gap: 0.1dvw;
+    color: var(--help-title-badge-color) !important;
+}
+
+.help-object-container {
+    display: grid;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.help-object-card {
+    max-width: 100%;
+    height: fit-content;
+}
+
+.help-object-header {
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-object-text {
+    margin: 0;
+    color: var(--help-object-text-color) !important;
+    text-align: justify;
+}

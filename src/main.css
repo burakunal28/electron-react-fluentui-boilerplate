@@ -1,0 +1,16 @@
+:root {
+  --background-color: #F3F3F3;
+}
+
+body.dark {
+  --background-color: #202020;
+}
+
+body {
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100dvh;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}

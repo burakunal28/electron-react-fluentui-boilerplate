@@ -1,0 +1,31 @@
+:root {
+  --navbar-background-color: #F3F3F3;
+  --logo-text-color: #1719FF;
+}
+
+body.dark {
+  --navbar-background-color: #202020;
+  --logo-text-color: #5860FF;
+}
+
+.navbar {
+  width: 100dvw;
+  height: 5dvh;
+  padding-left: 1dvw;
+  background-color: var(--navbar-background-color);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-logo{
+  width: 145px;
+  height: 23px;
+  margin-left: 5px;
+}
+
+.navbar-logo-text{
+  font-weight: bold !important;
+  color: var(--logo-text-color) !important;
+}

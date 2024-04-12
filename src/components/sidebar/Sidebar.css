@@ -1,0 +1,48 @@
+:root {
+  --sidebar-background-color: #F3F3F3;
+  --sidebar-active-tab-background-color: #E6E6E6;
+  --sidebar-active-tab-text-color: #1719FF;
+  --duration-normal: 200ms;
+  --curve-easy-ease: cubic-bezier(0.33,0,0.67,1);
+}
+
+body.dark {
+  --sidebar-background-color: #202020;
+  --sidebar-active-tab-background-color: #2C2C2C;
+  --sidebar-active-tab-text-color: #5860FF;
+}
+
+.sidebar {
+  width: 15dvw;
+  height: 95dvh;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--sidebar-background-color);
+  padding-left: 1dvw;
+  padding-right: 1dvw;
+  padding-top: 1dvh;
+  padding-bottom: 6dvh;
+  box-sizing: border-box;
+}
+
+.sidebar-active-tab {
+  background-color: var(--sidebar-active-tab-background-color) !important;
+  border-radius: 4px;
+}
+
+.tab-text {
+  font-size: 0.95rem !important;
+}
+
+.sidebar-active-tab .tab-text{
+  color: var(--sidebar-active-tab-text-color) !important;
+  font-weight: bold;
+  font-size: 0.95rem !important;
+}
+
+.sidebar-badge{
+  width: 100% !important;
+  border-radius: 6px !important;
+}

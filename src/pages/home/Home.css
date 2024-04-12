@@ -1,0 +1,92 @@
+:root {
+  --home-panels-tablist-tabs-background-color: #f5f5f5;
+  --home-title-badge-color: #242424;
+  --home-tabs-text-color: #1719FF;
+  --home-toaster-background-color: #FEFEFE;
+  --home-toaster-border-color: #D0D0D0;
+  --home-message-bar-background-color: #C7D6FF;
+  --home-message-bar-color: #2C34FF;
+  --home-message-bar-border-color: #A2B5FF;
+}
+
+body.dark {
+  --home-panels-tablist-tabs-background-color: #3d3d3d;
+  --home-title-badge-color: #FFFFFF;
+  --home-tabs-text-color: #5860FF;
+  --home-toaster-background-color: #141414;
+  --home-toaster-border-color: #424242;
+  --home-message-bar-background-color: #280044;
+  --home-message-bar-color: #8094FF;
+  --home-message-bar-border-color: #3900CA;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.home-row-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.home-column-container {
+  width: 100%;
+  gap: 10px;
+  display: inline-grid;
+  overflow-y: auto;
+  height: max-content;
+  max-height: 350px;
+}
+
+.home-column-container::-webkit-scrollbar {
+  width: 16px;
+}
+
+.home-column-container::-webkit-scrollbar-track {
+  border-radius: 16px;
+}
+
+.home-column-container::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: #5860FF;
+}
+
+.home-column-container::-webkit-scrollbar-thumb:hover {
+  background-color: #1719FF;
+}
+
+.home-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1dvh;
+  height: 4vh;
+}
+
+.home-message-bar {
+  background-color: var(--home-message-bar-background-color) !important;
+  color: var(--home-message-bar-color) !important;
+  border: 1px solid var(--home-message-bar-border-color) !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.home-title {
+  margin: 0;
+  height: 3dvh;
+}
+
+.home-title-badge{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  height: 3dvh !important;
+  gap: 0.1dvw;
+  color: var(--home-title-badge-color) !important;
+}
