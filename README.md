@@ -1,7 +1,6 @@
 # Electron-React-FluentUI Boilerplate 🚀
 
-This project is a boilerplate for building Electron applications with React and FluentUI. It includes features for handling user settings, theme changes, and language localization.
-
+This project is a boilerplate for building Electron applications with React and FluentUI. It includes features for handling user settings and theme changes.
 ## Preview
 
 ![Preview](screenshot.png)
