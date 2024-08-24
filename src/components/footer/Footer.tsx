@@ -1,7 +1,8 @@
-import * as React from "react";
-import { Location, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import type { Location } from 'react-router-dom';
 import { LocationContext } from '../location/LocationContext';
-import { FC, useState, useEffect, useContext } from 'react';
+import type { FC } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import './Footer.css';
 import {
   Breadcrumb,
@@ -60,7 +61,7 @@ const Footer: FC = () => {
     return () => {
       document.head.removeChild(style);
     };
-  }, []);
+  }, [minWidth]);
 
   const prepareEmailContent = () => {
     return `App Version: ${appVersion}\nInternet Access: ${isOnline ? 'Yes' : 'No'}\nCurrent Page: ${location.pathname}`;

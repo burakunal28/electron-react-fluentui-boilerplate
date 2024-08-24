@@ -35,7 +35,4 @@ const safeDOM = {
   },
 };
 
-function useLoading() {
-}
-
-export { domReady, safeDOM, useLoading };
+export { domReady, safeDOM };

@@ -1,6 +1,6 @@
-import { useNavigate, Location } from "react-router-dom";
-import { useState, useEffect } from 'react';
-import { useContext } from 'react';
+import { useNavigate } from "react-router-dom";
+import type { Location } from "react-router-dom";
+import { useState, useEffect, useContext } from 'react';
 import './Sidebar.css'
 import { LocationContext } from '../location/LocationContext';
 import { 
@@ -49,7 +49,7 @@ const Sidebar = () => {
       window.removeEventListener('resize', handleResize);
       document.head.removeChild(style);
     };
-  }, []);
+  }, [minWidth]);
 
   const HomeIcon = location.pathname === "/home" ? Home20Filled : Home20Regular;
   const HelpIcon = location.pathname === "/help" ? QuestionCircle20Filled : QuestionCircle20Regular;

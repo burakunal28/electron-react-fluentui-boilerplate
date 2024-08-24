@@ -31,8 +31,9 @@ body.dark {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1dvh;
-    height: 4vh;
+    margin-bottom: 2vh;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 .help-button-container {
@@ -43,15 +44,22 @@ body.dark {
 
 .help-title {
     margin: 0;
-    height: 3dvh;
+    font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .help-title-badge{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    height: 3dvh !important;
-    gap: 0.1dvw;
+    padding: 5px 10px !important;
+    height: auto !important;
+    gap: 0.1rem;
+    font-size: clamp(0.8rem, 2vw, 1rem);
     color: var(--help-title-badge-color) !important;
+}
+
+@media (max-width: 480px) {
+    .help-title-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .help-object-container {
@@ -62,7 +70,7 @@ body.dark {
 
 .help-object-card {
     max-width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 .help-object-header {

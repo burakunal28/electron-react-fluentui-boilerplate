@@ -1,8 +1,8 @@
 import { app, BrowserWindow, ipcMain, nativeTheme, screen } from 'electron';
-import * as path from 'path';
+import * as path from 'node:path';
 
 let win: BrowserWindow | null
-const VITE_DEV_SERVER_URL = process.env['VITE_DEV_SERVER_URL']
+const VITE_DEV_SERVER_URL = process.env.VITE_DEV_SERVER_URL
 
 ipcMain.handle('maximize-window', async ()  => {
   const { width, height } = screen.getPrimaryDisplay().workAreaSize;

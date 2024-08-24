@@ -1,50 +1,43 @@
 # Electron-React-FluentUI Boilerplate 🚀
 
-This is a boilerplate for building an Electron desktop application with React and Fluent UI. It includes features for handling user settings and theme changes.
+A boilerplate for building Electron apps with React and Fluent UI, featuring user settings and theme management.
+
 ## Preview
 
 ![Preview](screenshot.png)
 
 ## Getting Started 🛠️
 
-To get started with the project, follow these steps:
-
 1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Start the development server using `npm start`.
+2. Run `npm install`.
+3. Start the server with `npm start`.
 
 ## Building the Application 🏗️
 
-To build the Electron application for distribution, follow these steps:
-
-1. Make sure you have completed the steps in the "Getting Started" section.
-2. Run the build command for your target platform:
-   - For Windows: `npm run build:win`
-   - For macOS: `npm run build:mac`
-   - For Linux: `npm run build:linux`
-3. The built application will be available in the `release/` directory.
-
-Note: Make sure you have the necessary dependencies and build tools installed for your target platform.
+1. Complete the "Getting Started" steps.
+2. Build for your platform:
+   - Windows: `npm run build:win`
+   - macOS: `npm run build:mac`
+   - Linux: `npm run build:linux`
+3. Find the built app in the `release/` directory.
 
 ## Project Structure 📂
 
-The project structure is as follows:
-
-- `src/`: Contains the source code for the React application.
-- `electron/`: Contains the Electron main process code.
-- `release/`: Output directory for the built Electron application.
+- `src/`: Source code for the React app.
+- `electron/`: Electron main process code.
+- `release/`: Built Electron app output.
 
 ## Configuration Files ⚙️
 
-- `package.json`: Contains project metadata and dependencies.
-- `electron-builder.json5`: Configuration for building the Electron application for different platforms.
-- `vite.config.ts`: Vite configuration for building the React application and Electron integration.
+- `package.json`: Project metadata and dependencies.
+- `electron-builder.json5`: Build configuration for platforms.
+- `vite.config.ts`: Vite config for React and Electron.
 
 ## Additional Notes 📝
 
-- The project uses [FluentUI https://react.fluentui.dev] components for the UI from Microsoft.
-- Theme changes are handled using Electron's [nativeTheme]
+- Uses [FluentUI](https://react.fluentui.dev) components.
+- Theme changes via Electron's [nativeTheme].
 
 ## Developer 👨‍💻
 
-This project was created by [Burak Ünal](https://linktr.ee/burakunal28)
+Created by [Burak Ünal](https://linktr.ee/burakunal28)

@@ -44,7 +44,7 @@ function Help() {
       window.removeEventListener('resize', handleResize);
       document.head.removeChild(style);
     };
-  }, []);
+  }, [minWidth]); // Add minWidth to the dependency array
 
   return (
     <>  
@@ -71,7 +71,7 @@ function Help() {
             User Interface
           </Text>
           <Badge shape="rounded" appearance="outline" color="important">
-            Lorem ipsum dolor sit amet
+            Help and Support
           </Badge>
         </div>
         <Card 
@@ -87,7 +87,7 @@ function Help() {
             }
           />
           <p className="help-object-text">
-            Lorem ipsum dolor sit amet
+            Use the language option in the top right corner to change the application language.
           </p>
         </Card>
         <Card 
@@ -103,7 +103,7 @@ function Help() {
             }
           />
           <p className="help-object-text">
-            Lorem ipsum dolor sit amet
+            Use the settings menu to switch between light and dark themes.
           </p>
         </Card>
         <Card 
@@ -119,7 +119,7 @@ function Help() {
             }
           />
           <p className="help-object-text">
-            Lorem ipsum dolor sit amet
+            You can enable the application to start automatically when your computer boots up in the settings.
           </p>
         </Card>
         <Card 
@@ -135,7 +135,7 @@ function Help() {
             }
           />
           <p className="help-object-text">
-            Lorem ipsum dolor sit amet
+            We recommend keeping auto-update enabled to ensure you have the latest features.
           </p>
         </Card>
       </div>
