@@ -40,4 +40,5 @@ A boilerplate for building Electron apps with React and Fluent UI, featuring use
 
 ## Developer 👨‍💻
 
-Created by [Burak Ünal](https://linktr.ee/burakunal28)
+Created by [Burak Ünal](https://burakunal28.vercel.app/)
+
