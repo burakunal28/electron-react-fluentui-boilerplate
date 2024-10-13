@@ -42,3 +42,6 @@ A boilerplate for building Electron apps with React and Fluent UI, featuring use
 
 Created by [Burak Ünal](https://burakunal28.vercel.app/)
 
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
