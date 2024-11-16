@@ -1,4 +1,4 @@
-# Electron WinUI3 (FluentUI) React Boilerplate 🚀
+# Electron WinUI 3 (Fluent UI) React Boilerplate 🚀
 
 A boilerplate for building Electron apps with React and Fluent UI, featuring user settings and theme management.
 
